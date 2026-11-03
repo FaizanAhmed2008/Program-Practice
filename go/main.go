@@ -1,13 +1,11 @@
 package main
 
-import (
-	"fmt"
-
-	"rsc.io/quote"
+import ("fmt"
+		"mylearning/myutil"
 )
-
 func main() {
-	fmt.Println(quote.Go())
-	fmt.Println(quote.Hello())
 
+	fmt.Println("Hello Wolrd")
+
+	myutil.PrintKar("Hello Nigga")
 }
